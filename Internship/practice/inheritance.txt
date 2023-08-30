@@ -1,0 +1,25 @@
+inheritance in python:- The class get derived from another class.
+
+simple inheritance:- only one parent and child class.
+    a->b
+
+multiple inheritance:- Two parent class and one child class.
+    a->b,c
+
+multilevel inheritance:- more than one sub class. 
+    a->b->c
+
+hierachical inheritance:- multiple sub classes derive properties from a single super class.
+    a->b
+    a->c
+
+hybrid inheritance:- combination of mote than one the class.
+    a->b->c
+       b->d
+
+
+constructor
+    __init__() Function
+
+super() function 
+    that will make the child class inherit all the methods and properties from its parent
