@@ -8,8 +8,10 @@ lis=data["message"]
 for name in que:
     for dic1 in lis:
         if dic1["name"]==name:
-            print(name)
             temp.append(dic1)
     dic2[name]=temp
     temp=[]
-print(dic2)
+
+print(data)
+for i in dic2:
+    print(i," : ",dic2[i])
