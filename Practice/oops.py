@@ -3,7 +3,6 @@ try:
     # import frappe
     # from frappe.utils import now_datetime
 
-
     # @frappe.whitelist()
     # def sales_invoice_create(
     #     customer,
@@ -70,13 +69,12 @@ try:
     #         except Exception as e:
     #             frappe.db.rollback()
     #             return f"{e}"
-            
 
     #         frappe.db.commit()
     #         return "The Request Has Been Created Successfully"
-        
+
 except Exception as e:
-    print(f'Bhai Error AAi')
+    print(f"Bhai Error AAi")
 
 finally:
     print("Finnalyy")
